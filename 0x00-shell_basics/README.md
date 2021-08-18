@@ -1,0 +1,1 @@
+**The first line means run this script in bash and the second is about showing the name of current working directory**
