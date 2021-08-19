@@ -1,0 +1,1 @@
+The is about telling the system to use bash as a default shell.\And the second line is for switching from the current user to user betty.
