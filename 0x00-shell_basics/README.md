@@ -26,11 +26,11 @@
 
 **ln -s /bin/ls _ls_** Creates a symbolic link named ls for /bin/ls
 
-**cp -u *.html ..** Copies all html files from the current directory to the parent directory, but only copy files that didn't exist in the parent directory or are newer versions than the ones that already exist in the parent directory. The -u option didn't show on the terminal manual page. The -u option copies the file into the directory if its a newer version. If the file doesn't exist in the directory, it will copy over. The -n option works for copying files that don't exist in the parent directory, but it doesn't check if the file is a newer version or not.
+cp -u *.html .. **Copies all html files from the current directory to the parent directory, but only copy files that didn't exist in the parent directory or are newer versions than the ones that already exist in the parent directory. The -u option didn't show on the terminal manual page. The -u option copies the file into the directory if its a newer version. If the file doesn't exist in the directory, it will copy over. The -n option works for copying files that don't exist in the parent directory, but it doesn't check if the file is a newer version or not.**
 
-**mv [[:upper:]]* /tmp/u** Move all files that begin with a capital letter to /tmp/u
+mv [[:upper:]]* /tmp/u **Moves all files that begin with a capital letter to /tmp/u**
 
-**rm *~** Deletes all files in the current directory that end with a ~
+rm *~ **Deletes all files in the current directory that end with a ~**
 
 **mkdir -p welcome/to/holberton** Creates directory welcome in current directory. Create directory to inside directory welcome. Create directory holberton inside directory to. The -p option creates any intermediate directories in the path argument.
 
